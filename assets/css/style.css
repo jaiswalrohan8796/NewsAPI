@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(46, 46, 46);
+    color: rgb(232, 238, 243);
+    font-size: 16px;
+}
+main {
+    margin: 16px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.card {
+    list-style: none;
+    background-color: rgb(46, 46, 46);
+    border: none;
+    width:300px;
+    height: 380px;
+    margin: 16px;
+    box-shadow: 4px 4px 16px 4px rgb(37, 37, 37);
+    border-radius: 16px;
+}
+.card img {
+    height: 180px;
+}
